@@ -437,7 +437,7 @@ split
 		return true;
 	}	
 	
-	if (Math.Round(current.x_pos, 1) == 1414.6 && settings["chapter39"] == true && vars.chapter39 == 1)
+	if (Math.Round(current.x_pos, 1) == 1414.7 && settings["chapter39"] == true && vars.chapter39 == 1)
 	{
 		vars.chapter39 = 0;
 		return true;
