@@ -1,3 +1,5 @@
+v 1.1.1
+
 state("Limbo")
 {
 	int loading 	: 0x004A4EA0, 0x14, 0x5C, 0x148, 0x20, 0x1E4; // 1 when not loading, 0 when loading
