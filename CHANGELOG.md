@@ -3,7 +3,7 @@
 ## 1.2 - 2018-02-15
 ### Changed
 - Changed location of Chapter 07 just a bit so it isnt as awkward on the landing on the tree.
-~~- Changed y location of Chapter 28 so it splits even when you are Parhelion (or are too fast in general).~~
+- ~~Changed y location of Chapter 28 so it splits even when you are Parhelion (or are too fast in general).~~
 - Version number doesn't disable the script anymore.
 - Added a space in chapter 26 for visual clarity.
 
