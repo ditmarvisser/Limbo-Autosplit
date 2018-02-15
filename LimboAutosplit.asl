@@ -1,4 +1,3 @@
-v 1.1.1
 
 state("Limbo")
 {
@@ -230,7 +229,7 @@ split
 		return true;
 	}
 	
-	if (vars.x_pos_round == -899 && settings["chapter07"] == true && vars.chapter07 == 1)
+	if (vars.x_pos_round == -898 && settings["chapter07"] == true && vars.chapter07 == 1)
 	{
 		vars.chapter07 = 0;
 		return true;
@@ -361,7 +360,7 @@ split
 		return true;
 	}
 	
-	if (vars.x_pos_round == 552 && (vars.y_pos_round ==  11|| vars.y_pos_round == 12) && settings["chapter26"] == true && vars.chapter26 == 1)
+	if (vars.x_pos_round == 552 && (vars.y_pos_round ==  11 || vars.y_pos_round == 12) && settings["chapter26"] == true && vars.chapter26 == 1)
 	{
 		vars.chapter26 = 0;
 		return true;
@@ -373,7 +372,7 @@ split
 		return true;
 	}
 	
-	if (vars.x_pos_round == 709 && (vars.y_pos_round == -4 || vars.y_pos_round == -5) && settings["chapter28"] == true && vars.chapter28 == 1)
+	if (vars.x_pos_round == 709 && vars.y_pos_round >= -4 && settings["chapter28"] == true && vars.chapter28 == 1)
 	{
 		vars.chapter28 = 0;
 		return true;
