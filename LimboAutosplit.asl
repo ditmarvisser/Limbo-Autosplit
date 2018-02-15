@@ -373,7 +373,7 @@ split
 		return true;
 	}
 	
-	if (vars.x_pos_round == 709 && vars.y_pos_round >= -4 && settings["chapter28"] == true && vars.chapter28 == 1)
+	if (vars.x_pos_round == 709 && vars.y_pos_round >= -5 && settings["chapter28"] == true && vars.chapter28 == 1)
 	{
 		vars.chapter28 = 0;
 		return true;
