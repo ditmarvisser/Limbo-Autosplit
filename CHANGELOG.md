@@ -1,5 +1,12 @@
 # Changelog
 
+## 1.3 - 2018-03-11
+### Added
+- Chapter descriptions written by Parhelion.
+### Changed
+- The timer should now start when you hit "New Game". It used to start after it finished loading the first chapter, which created some inconsistencies with people not using the autosplitter.
+- Checked "Chapters" by default.
+
 ## 1.2 - 2018-02-15
 ### Changed
 - Changed location of Chapter 07 just a bit so it isnt as awkward on the landing on the tree.
