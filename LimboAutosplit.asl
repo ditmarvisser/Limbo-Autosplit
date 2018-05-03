@@ -16,11 +16,11 @@ startup
 	// Adds settings for every chapter
 	settings.Add("chapters", true, "Chapters");
 	settings.SetToolTip("chapters", "These split at the end of each chapter.");
-	settings.Add("chapter01", true, "Chapter 01", "chapters");
-	settings.Add("chapter02", true, "Chapter 02", "chapters");
+	settings.Add("chapter01", false, "Chapter 01", "chapters");
+	settings.Add("chapter02", false, "Chapter 02", "chapters");
 	settings.Add("chapter03", true, "Chapter 03 (Boat)", "chapters");
 	settings.Add("chapter04", true, "Chapter 04 (Tree)", "chapters");
-	settings.Add("chapter05", true, "Chapter 05", "chapters");
+	settings.Add("chapter05", false, "Chapter 05", "chapters");
 	settings.Add("chapter06", true, "Chapter 06 (Cocoon)", "chapters");
 	settings.Add("chapter07", true, "Chapter 07 (Rope)", "chapters");
 	settings.Add("chapter08", true, "Chapter 08 (Stumps)", "chapters");
@@ -34,7 +34,7 @@ startup
 	settings.Add("chapter16", true, "Chapter 16 (Worm 1)", "chapters");
 	settings.Add("chapter17", true, "Chapter 17 (Rain)", "chapters");
 	settings.Add("chapter18", true, "Chapter 18 (Flood 1)", "chapters");
-	settings.Add("chapter19", true, "Chapter 19", "chapters");
+	settings.Add("chapter19", false, "Chapter 19", "chapters");
 	settings.Add("chapter20", true, "Chapter 20 (Flood 2)", "chapters");
 	settings.Add("chapter21", true, "Chapter 21 (Hotel)", "chapters");
 	settings.Add("chapter22", true, "Chapter 22 (Worm 2)", "chapters");
@@ -44,16 +44,16 @@ startup
 	settings.Add("chapter26", true, "Chapter 26 (Leg)", "chapters");
 	settings.Add("chapter27", true, "Chapter 27 (Factory 1)", "chapters");
 	settings.Add("chapter28", true, "Chapter 28 (Magnet)", "chapters");
-	settings.Add("chapter29", true, "Chapter 29", "chapters");
+	settings.Add("chapter29", false, "Chapter 29", "chapters");
 	settings.Add("chapter30", true, "Chapter 30 (Factory 2)", "chapters");
 	settings.Add("chapter31", true, "Chapter 31 (Cart)", "chapters");
 	settings.Add("chapter32", true, "Chapter 32 (Sparks)", "chapters");
-	settings.Add("chapter33", true, "Chapter 33", "chapters");
+	settings.Add("chapter33", false, "Chapter 33", "chapters");
 	settings.Add("chapter34", true, "Chapter 34 (Piston)", "chapters");
 	settings.Add("chapter35", true, "Chapter 35 (Gravity)", "chapters");
-	settings.Add("chapter36", true, "Chapter 36", "chapters");
+	settings.Add("chapter36", false, "Chapter 36", "chapters");
 	settings.Add("chapter37", true, "Chapter 37 (H)", "chapters");
-	settings.Add("chapter38", true, "Chapter 38", "chapters");
+	settings.Add("chapter38", false, "Chapter 38", "chapters");
 	settings.Add("chapter39", true, "Chapter 39 (Glass)", "chapters");
 
 	// Creates checks for every chapter
